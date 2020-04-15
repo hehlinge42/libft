@@ -13,6 +13,12 @@
 #include <unistd.h>
 #include "libft.h"
 
+/*
+** Prototype void ft_putchar(char c);
+** Description Affiche le caractère c sur la sortie standard.
+** Param. #1 Le caractère à afficher.
+*/
+
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);

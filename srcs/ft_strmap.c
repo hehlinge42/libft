@@ -13,6 +13,15 @@
 #include "libft.h"
 #include <stdlib.h>
 
+/*
+** Description Applique la fonction f à chaque caractère de la chaîne de
+** caractères passée en paramètre pour créer une nouvelle chaîne
+** “fraiche” (avec malloc(3)) résultant des applications successives de f.
+** Param. #1 La chaîne de caractères sur laquelle itérer.
+** Param. #2 La fonction à appeler sur chaque caractère de s.
+** Retour La chaîne “fraiche” résultant des applications successives de f.
+*/
+
 char	*ft_strmap(char const *s, char (*f)(char))
 {
 	int		i;

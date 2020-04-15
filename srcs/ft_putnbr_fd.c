@@ -13,6 +13,12 @@
 #include "libft.h"
 #include <unistd.h>
 
+/*
+** Description Ecrit l’entier n sur le descripteur de fichier fd.
+** Param. #1 L’entier à écrire.
+** Param. #2 Le descripteur de fichier.
+*/
+
 void	ft_putnbr_fd(int n, int fd)
 {
 	unsigned int nbr;

@@ -13,6 +13,11 @@
 #include "libft.h"
 #include <unistd.h>
 
+/*
+** Description Affiche la chaîne s sur la sortie standard suivi d’un ’\n’.
+** Param. #1 La chaîne de caractères à afficher.
+*/
+
 void	ft_putendl(const char *s)
 {
 	int i;

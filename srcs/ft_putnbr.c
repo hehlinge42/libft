@@ -13,6 +13,11 @@
 #include "libft.h"
 #include <unistd.h>
 
+/*
+** Description Affiche l’entier n sur la sortie standard.
+** Param. #1 L’entier à afficher.
+*/
+
 void	ft_putnbr(int n)
 {
 	unsigned int nbr;

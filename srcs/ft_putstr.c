@@ -13,6 +13,12 @@
 #include "libft.h"
 #include <unistd.h>
 
+/*
+** Prototype void ft_putstr(char const *s);
+** Description Affiche la chaîne s sur la sortie standard.
+** Param. #1 La chaîne de caractères à afficher.
+*/
+
 void	ft_putstr(const char *s)
 {
 	write(1, s, ft_strlen(s));

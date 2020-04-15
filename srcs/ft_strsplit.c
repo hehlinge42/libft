@@ -13,6 +13,19 @@
 #include "libft.h"
 #include <stdlib.h>
 
+/*
+** Description Alloue (avec malloc(3)) et retourne un tableau de chaînes de
+** caractères “fraiches” (toutes terminées par un ’\0’, le tableau
+** également donc) résultant de la découpe de s selon le caractère
+** c. Si l’allocation echoue, la fonction retourne NULL. Exemple :
+** ft_strsplit("*salut*les***etudiants*", ’*’) renvoie
+** le tableau ["salut", "les", "etudiants"].
+** Param. #1 La chaîne de caractères à découper.
+** Param. #2 Le caractère selon lequel découper la chaîne.
+** Retour Le tableau de chaînes de caractères “fraiches” résultant de la
+** découpe.
+*/
+
 static int	ft_word_count(char const *s, char c)
 {
 	int	i;

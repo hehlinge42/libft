@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/*
+** Description Assigne la valeur ’\0’ à tous les caractères de la chaîne
+** passée en paramètre.
+** Param. #1 La chaîne de caractères à clearer.
+*/
+
 void	ft_strclr(char *s)
 {
 	int i;

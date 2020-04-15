@@ -12,6 +12,18 @@
 
 #include "libft.h"
 
+/*
+** Description Alloue (avec malloc(3)) et retourne une copie de la chaîne
+** passée en paramètre sans les espaces blancs au debut et à la
+** fin de cette chaîne. On considère comme espaces blancs les
+** caractères ’ ’, ’\n’ et ’\t’. Si s ne contient pas d’espaces
+** blancs au début ou à la fin, la fonction renvoie une copie de
+** s. Si l’allocation echoue, la fonction renvoie NULL.
+** Param. #1 La chaîne de caractères à trimmer.
+** Retour La chaîne de caractère “fraiche” trimmée ou bien une copie
+** de s sinon.
+*/
+
 char	*ft_strtrim(char const *s)
 {
 	int		i;

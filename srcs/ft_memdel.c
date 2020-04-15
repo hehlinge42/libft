@@ -13,6 +13,13 @@
 #include "libft.h"
 #include <stdlib.h>
 
+/*
+** Description: Prend en paramètre l’adresse d’un pointeur dont la zone pointée
+** doit être libérée avec free(3), puis le pointeur est mis à NULL.
+** Param. #1 L’adresse d’un pointeur dont il faut libérer la mémoire puis le
+** mettre à NULL.
+*/
+
 void	ft_memdel(void **ap)
 {
 	if (!ap)

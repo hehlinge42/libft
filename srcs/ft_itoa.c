@@ -13,6 +13,15 @@
 #include "libft.h"
 #include <stdlib.h>
 
+/*
+** Description Alloue (avec malloc(3)) et retourne une chaîne de caractères
+** “fraiche” terminée par un ’\0’ représentant l’entier n passé
+** en paramètre. Les nombres négatifs doivent être gérés. Si l’allocation
+** échoue, la fonction renvoie NULL.
+** Param. #1 L’entier à convertir en une chaîne de caractères.
+** Retour La chaîne de caractères représentant l’entier passé en paramètre.
+*/
+
 char	*ft_itoa(int n)
 {
 	char			*res;

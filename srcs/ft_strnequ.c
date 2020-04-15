@@ -12,6 +12,16 @@
 
 #include "libft.h"
 
+/*
+** Description Compare lexicographiquement s1 et s2 jusqu’à n caractères
+** maximum ou bien qu’un ’\0’ ait été rencontré. Si les deux
+** chaînes sont égales, la fonction retourne 1, ou 0 sinon.
+** Param. #1 La première des deux chaînes à comparer.
+** Param. #2 La seconde des deux chaînes à comparer.
+** Param. #3 Le nombre de caractères à comparer au maximum.
+** Retour 1 ou 0 selon que les deux chaînes sont égales ou non.
+*/
+
 int	ft_strnequ(char const *s1, char const *s2, size_t n)
 {
 	size_t	i;

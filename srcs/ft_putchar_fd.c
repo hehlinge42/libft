@@ -13,6 +13,12 @@
 #include <unistd.h>
 #include "libft.h"
 
+/*
+** Description Ecrit le caractère c sur le descripteur de fichier fd.
+** Param. #1 Le caractères à écrire.
+** Param. #2 Le descripteur de fichier.
+*/
+
 void	ft_putchar_fd(char c, int fd)
 {
 	if (fd >= 0)

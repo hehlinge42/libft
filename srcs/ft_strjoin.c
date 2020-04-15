@@ -13,6 +13,16 @@
 #include "libft.h"
 #include <stdlib.h>
 
+/*
+** Description Alloue (avec malloc(3)) et retourne une chaîne de caractères
+** “fraiche” terminée par un ’\0’ résultant de la concaténation
+** de s1 et s2. Si l’allocation echoue, la fonction renvoie NULL.
+** Param. #1 La chaîne de caractères préfixe.
+** Param. #2 La chaîne de caractères suffixe.
+** Retour La chaîne de caractère “fraiche” résultant de la concaténation
+** des deux chaînes.
+*/
+
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char *res;

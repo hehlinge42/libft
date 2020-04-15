@@ -13,6 +13,13 @@
 #include "libft.h"
 #include <unistd.h>
 
+/*
+** Description Ecrit la chaîne s sur le descripteur de fichier fd suivi d’un
+** ’\n’.
+** Param. #1 La chaîne de caractères à écrire.
+** Param. #2 Le descripteur de fichier.
+*/
+
 void	ft_putendl_fd(const char *s, int fd)
 {
 	int i;
