@@ -13,6 +13,16 @@
 #include "libft.h"
 #include <stdlib.h>
 
+/*
+** Description Parcourt la liste lst en appliquant à chaque maillon la fonction
+** f et crée une nouvelle liste “fraiche” avec malloc(3) résultant
+** des applications successives. Si une allocation échoue,
+** la fonction renvoie NULL.
+** Param. #1 Pointeur sur le premier maillon d’une liste.
+** Param. #2 L’adresse d’une fonction à appliquer à chaque maillon de la
+** liste pour créer une nouvelle liste.
+*/
+
 t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 {
 	t_list	*elem;
